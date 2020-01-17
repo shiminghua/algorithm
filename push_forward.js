@@ -3,7 +3,7 @@
  * 
  * 使用顺推法实现斐波那契数列
  */
-
+// [1, 1, 2, 3, 5, 8, 13, 21]
 function fibonacci(n) {
   // 定义一个数组，用来存放对应的斐波那契数值
   let fibonacciArr = [1, 1];
@@ -16,4 +16,4 @@ function fibonacci(n) {
   return fibonacciArr;
 }
 
-console.log(fibonacci(12).toString());
+console.log(fibonacci(10).toString());

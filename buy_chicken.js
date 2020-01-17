@@ -17,5 +17,5 @@ function buyAHundredChicken() {
     }
   }
 }
-
+// console.log(1/0);
 buyAHundredChicken();
